@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title></title>
+    <style>
+        /* ตกแต่ง body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #343a40;
+            margin: 0;
+            padding: 20px;
+            
+        }
+        .card{
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px;
+            position: relative;
+        }
+        /* เพิ่ม border-radius ให้กับขอบทุกๆ ด้านของ box */
+        .box {
+            
+            border-radius: 10px;
+            overflow: hidden; /* ป้องกันเนื้อหาภายในไม่ถูกตัดออกเมื่อมีการปรับขนาดของ box */
+            border: 1px solid #ced4da; /* เพิ่มเส้นขอบ */
+            margin-bottom: 20px; /* เพิ่มช่องว่างด้านล่างของ box */
+            padding: 20px; /* เพิ่มช่องว่างรอบข้อความ */
+            box-shadow: 3px 3px 10px;
+        }
+        /* เพิ่ม border-radius ให้กับขอบเส้นของ progress-bar */
+        .progress-bar {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-img" style="display: flex; justify-content: center;">
+                        <img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1710460800&semt=ais" alt="">
+                        
+                    </div>  
+                    <div class="profile-about" id="about">
+                        <h3><i class="bi bi-person-fill"></i> PERSONAL INFOMATION</h3>
+                        <br>
+                        <ul class="list-group">
+                            <li class="list-group-item"> Name: BASIRIN SAMAN</li>
+                            <li class="list-group-item"> Born: 30 August 2001</li>
+                            <li class="list-group-item"> Gender: Male</li>
+                            <li class="list-group-item"> Status:Single</li>
+                            <br>
+                        </ul>
+                        <br>
+                    </div>
+                    <div class="profile-about" id="about">
+                        <ul class="list-group">
+                            <h3><i class="bi bi-chat-square-dots-fill"></i> CONTACT DETAILS</h3>
+                            <br>
+                            <li class="list-group-item"><i class="fas fa-briefcase fa-fw"></i> Student</li>
+                            <li class="list-group-item"><i class="fas fa-home fa-fw"></i> Nakhonsritammarat, TH</li>
+                            <li class="list-group-item"><i class="fas fa-envelope fa-fw"></i> satitislam60021@gmail.com</li>
+                            <li class="list-group-item"><i class="fas fa-phone fa-fw"></i> 062-0812191</li>
+                            <li class="list-group-item"><i class="fas fa-suitcase"></i>  GitHub: REEN-BASIREEN</li>
+                            <br>
+                        </ul>
+                        <br>
+                    </div>
+                    
+                    
+                    <div class="skills">
+                        <h3><i class="bi bi-lightning-charge-fill"></i> Skills</h3>
+                        <p>AI</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;">Basic</div>
+                        </div>
+                        <br>
+                        <p>IoT</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;">Advance</div>
+                        </div>
+                        <br>
+                        <p>Database</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;">Intermediat</div>
+                        </div>
+                        <br>
+                        <p>Web Design</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 100%;">Intermediat</div>
+                            
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="information">
+                    <div class="education">
+                        
+                        <div class="box">
+                            <div class="language">
+                                <h3><i class="bi bi-globe"></i> Languages</h3>
+                                <br>
+                                <p><i class="bi bi-filetype-py"></i> Python</p>
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <br>
+                                <p><i class="bi bi-terminal"></i> C++</p>
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <br>
+                                <p><i class="bi bi-code-slash"></i> HTML</p>
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <br>
+                                <p><i class="bi bi-terminal"></i> C</p>
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                                <br>
+                                <p><i class="bi bi-terminal"></i> JAVA</p>
+                                <div class="progress">
+                                    <div class="progress-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="college">
+                                <h1><i class="fas fa-graduation-cap"></i> EDUCATION</h1>
+                                <br>
+                                <h3>Islamic Sciences Demonstration School</h3>
+                                <div class="date"><i class="far fa-calendar-alt"></i> 2017-2020</div>
+                                <p></p>
+                            </div>
+                            <div class="college">
+                                <h3>King Monkut's University of Technology Thonburi</h3>
+                                <div class="date"><i class="far fa-calendar-alt"></i> 2020-2021</div>
+                                <p>I sudied in School of Mechatronic </p>
+                            </div>
+                            <div class="college">
+                                <h3>Walailak University</h3>
+                                <div class="date"><i class="far fa-calendar-alt"></i> 2022 - now</div>
+                                <p>Now I am studing in School of Computer Engineering and AI </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="recent-work">
+                        
+                        <div class="box">
+                            <div class="work current">
+                                <h1><i class="fas fa-suitcase"></i> WORK EXPERIENCE</h1><br>
+                                <h3><i class="fa fa-cogs"></i> IoT Developer</h3>
+                                <div class="date"><i class="far fa-calendar-alt"></i> Jan 2015 - <span>Current</span></div>
+                                <p>Made about smart farming in plants Now we make strawberry and melon plants by controlling the temperature inside the greenhouse. Control the distribution of water and fertilizer according to soil moisture. They will also collect leaf samples and use them for further development in AI. and made a Nepenthes plant nursery that can control the temperature and humidity. And there is also a project to scan QR codes to pay for electric cars in universities. This project is currently in development.</p>
+                            </div>
+                            
+                            <div class="work">
+                                <h3><i class="fas fa-chart-bar"></i> Front End Developper</h3>
+                                
+                                <p>I've been practicing creating websites about recommending tourist attractions, resumes, and shops. You can follow my work on GitHub. 
+                                </p>
+                                <p><i class="fas fa-suitcase"></i> GitHub:REEN-BASIREEN</p><br>
+                            </div>
+                            <!-- <div class="work">
+                                <h3><i class="fa fa-brain"></i> AI Developper</h3>
+                                <div class="date"><i class="far fa-calendar-alt"></i> Jun 2010 - Mar 2012 </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
