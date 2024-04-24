@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+        } 
+        .subcontent {
+            width: 100%;
+            margin: 1px;
+            padding: 5px;
+            color: rgb(75, 75, 75);
+        }
+        .subcontent-c1,
+        .subcontent-c2,
+        .subcontent-c3,
+        .subcontent-c4{
+            background-color: white;
+            width: 24%;
+            margin: 1px;
+            padding: 5px;
+            color: rgb(6, 6, 18);
+        }
+        .subcontent-c1 img,
+        .subcontent-c2 img,
+        .subcontent-c3 img,
+        .subcontent-c4 img {
+            width: 100%; /* Make sure the image fills its container */
+            height: auto; /* Maintain the aspect ratio */
+        }
+        
+       
+        .subcontent-footer {
+            background-color: rgb(68, 68, 68);
+            margin: 1px;
+            padding: 10px; /* Adjust padding as needed */
+            color: rgb(255, 255, 255);
+            width: 100%;
+        }
+        @media screen and (max-width:600px) {
+            .content {
+                flex-direction: column;
+                align-items: center; /* Center items horizontally */
+            }
+            .subcontent-c1,
+            .subcontent-c2,
+            .subcontent-c3,
+            .subcontent-c4{
+                width: 70%;
+                max-width: 100%; /* Ensure the image doesn't exceed the container width */
+                height: auto;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="subcontent">
+            <img src="s_190262_9085.jpg" alt="" style="width: 100%;">
+            <h1 style="text-align: center;">หมู่บ้านคีรีวง</h1>
+            <br>
+        </div>
+        <div class="subcontent-c1">
+            <h3 style="text-align: center;">วิสาหกิจชุมชน</h3>
+            <img src="https://bookingtrip.co/wp-content/uploads/2023/03/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%84%E0%B8%A1%E0%B9%8962-1024x679.jpg" alt="">
+            <p style="text-align: center;">วิสาหกิจชุมชนประกอบด้วย ศูนย์จำหน่ายสินค้าผลิตภัณฑ์ของชุมชน(กลุ่มบ้านสมุนไพร) ศูนย์ผลิตภัณฑ์กลุ่มลายเทียน กลุ่มลูกไม้บ้านคีรีวง กลุ่มผ้ามัดย้อมสีจากธรรมชาติ ซึ่งในแต่ละศูนย์การเรียนรู้หรือกลุ่มให้ความรู้ต่างๆ เหล่านี้ จะมีผลิตภัณฑ์วางจำหน่ายให้กับนักท่องเที่ยวที่มาเยือนหลากหลาย</p>
+        </div>
+        <div class="subcontent-c2">
+            <h3 style="text-align: center;">สะพานคีรีวง</h3>
+            <img src="https://f.tpkcdn.com/review-source/6acc9cd1-6c30-e805-28ce-5f756230cce5.png" alt="">
+            <p style="text-align: center;">สะพานบ้านคีรีวง" เป็นจุดแลนด์มาร์กสำคัญที่ไม่ว่าใครก็ต้องมาถ่ายรูป เหมือนกับว่าถ้าใครไม่ได้มาถ่ายรูปกับสะพานนี้ก็เหมือนมาไม่ถึงบ้านคีรีวง</p>
+        </div>
+        <div class="subcontent-c3">
+            <h3 style="text-align: center;">ลำธารสำหรับเล่นน้ำ</h3>
+            <img src="https://lh3.googleusercontent.com/proxy/lREF0zv7vGD-fxLJ82WMfossdW163ZICOXu76eh0ouD09OQ0-z4MdChW_TgygaUELrCbXKxGcNPg" alt="">
+            <p style="text-align: center;">ที่นี่มีแหล่งน้ำที่ใสสะอาด มีโขดหินมากมายให้นั่งชม สามารถเล่นน้ำได้ตลอดแนวของลำธาร และที่สำคัญมีจุดให้เล่นน้ำหลายจุด ไม่ว่าจะเป็นลำธารหน้าหมู่บ้าน โซนหนานหินท่าหา น้ำตกวังไม้ปัก และตามจุดที่พักต่างๆ</p>
+        </div>
+        <div class="subcontent-c4">
+            <h3 style="text-align: center;">คาเฟ่กลางหุบเขา</h3>
+            <img src="https://static.thairath.co.th/media/PZnhTOtr5D3rd9ocKvLhb1v3jTGLwmuwJmJyOUTbBzTylyy.jpg" alt="">
+            <p style="text-align: center;">✨เปิดบริการทุกวัน 07.00 - 20.00 น.<br> 
+                ✨จิบกาแฟ สูดโอโซน เก็บภาพบรรยากาศ 
+                ภูเขา แม่น้ำ <br>
+                🍹อาหาร & เครื่องดื่มพร้อมของหวานโฮมเมด 
+                อาหารไทย-ฝรั่ง: เมนูข้าวสไตล์ Fusion  
+                 อาหารพื้นบ้านคีรีวง</p>
+        </div>
+        <div class="subcontent" style="text-align: center;">
+            <br>
+            <img src="dab75553-41a0-4734-84ad-bd7d6001aee3.png" alt="" style="width: 100%;">
+        </div>
+        <div class="subcontent-footer" style="text-align: center;">
+            <h3>พิกัด</h3>
+            ตั้งอยู่ที่ตำบลกำโลน อำเภอลานสกา จังหวัดนครศรีธรรมราช 
+        </div>
+    </div>
+</body>
+</html>
